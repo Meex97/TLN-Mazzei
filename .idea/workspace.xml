@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8783810b-b14a-424f-8270-c45ffd4a60ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/parsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.fcfg" beforeDir="false" afterPath="$PROJECT_DIR$/cfgrammar.fcfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prova.py" beforeDir="false" afterPath="$PROJECT_DIR$/prova.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,22 +25,31 @@
   <component name="ProjectId" id="1ejAei6ugbphmvRj8Gs20vRa73z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="gradle.compiler" />
   </component>
-  <component name="RunManager" selected="Python.parsing">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venv" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.prova">
     <configuration name="parsing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TLN-Mazzei" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,22 +110,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.parsing" />
         <item itemvalue="Python.prova" />
+        <item itemvalue="Python.parsing" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -132,37 +129,57 @@
       <workItem from="1594833463825" duration="11000" />
       <workItem from="1594915995694" duration="7313000" />
       <workItem from="1595005449648" duration="515000" />
+      <workItem from="1595006594662" duration="42000" />
+      <workItem from="1595006657461" duration="2746000" />
+      <workItem from="1595176198500" duration="4252000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="476" y="130" width="1024" height="845" key="#Project_Structure" timestamp="1595006878199">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="476" y="130" width="1024" height="845" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1595006878199" />
     <state x="460" y="181" width="1084" height="743" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594825286117">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="460" y="181" width="1084" height="743" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1594825286117" />
-    <state x="739" y="312" width="737" height="483" key="FileChooserDialogImpl" timestamp="1594921127223">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state x="660" y="415" width="646" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595176266565">
+      <screen x="67" y="27" width="1853" height="1173" />
+    </state>
+    <state x="660" y="415" width="646" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1173@67.27.1853.1173" timestamp="1595176266565" />
+    <state x="780" y="311" width="737" height="483" key="FileChooserDialogImpl" timestamp="1595007426139">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="739" y="312" width="737" height="483" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1594921127223" />
-    <state width="1874" height="542" key="GridCell.Tab.0.bottom" timestamp="1594925779058">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state x="780" y="311" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1595007426139" />
+    <state width="1807" height="369" key="GridCell.Tab.0.bottom" timestamp="1595181444100">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="542" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1594925779058" />
-    <state width="1874" height="542" key="GridCell.Tab.0.center" timestamp="1594925779057">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state width="1807" height="369" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1595181444100" />
+    <state width="1807" height="421" key="GridCell.Tab.0.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1595176325384" />
+    <state width="1807" height="369" key="GridCell.Tab.0.center" timestamp="1595181444093">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="542" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1594925779057" />
-    <state width="1874" height="542" key="GridCell.Tab.0.left" timestamp="1594925779056">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state width="1807" height="369" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1595181444093" />
+    <state width="1807" height="421" key="GridCell.Tab.0.center/67.27.1853.1173@67.27.1853.1173" timestamp="1595176325382" />
+    <state width="1807" height="369" key="GridCell.Tab.0.left" timestamp="1595181444091">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="542" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1594925779056" />
-    <state width="1874" height="542" key="GridCell.Tab.0.right" timestamp="1594925779057">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state width="1807" height="369" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1595181444091" />
+    <state width="1807" height="421" key="GridCell.Tab.0.left/67.27.1853.1173@67.27.1853.1173" timestamp="1595176325380" />
+    <state width="1807" height="369" key="GridCell.Tab.0.right" timestamp="1595181444099">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1874" height="542" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1594925779057" />
+    <state width="1807" height="369" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1595181444099" />
+    <state width="1807" height="421" key="GridCell.Tab.0.right/67.27.1853.1173@67.27.1853.1173" timestamp="1595176325383" />
     <state width="1874" height="343" key="GridCell.Tab.1.bottom" timestamp="1594831583725">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
@@ -179,17 +196,18 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state width="1874" height="343" key="GridCell.Tab.1.right/0.28.1920.1052@0.28.1920.1052" timestamp="1594831583725" />
-    <state x="443" y="132" width="1026" height="844" key="SettingsEditor" timestamp="1594921204733">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state x="495" y="131" width="1024" height="845" key="SettingsEditor" timestamp="1595007599877">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="443" y="132" width="1026" height="844" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1594921204733" />
+    <state x="495" y="131" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1595007599877" />
     <state x="616" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1595005452007">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="616" y="382" key="com.intellij.ide.util.TipDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1595005452007" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/progetto$parsing.coverage" NAME="parsing Coverage Results" MODIFIED="1594921100939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/progetto$prova.coverage" NAME="prova Coverage Results" MODIFIED="1594920678050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/progetto$parsing.coverage" NAME="parsing Coverage Results" MODIFIED="1595008725769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/progetto$prova.coverage" NAME="prova Coverage Results" MODIFIED="1595181420812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
