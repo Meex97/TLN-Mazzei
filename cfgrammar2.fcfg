@@ -28,13 +28,16 @@ PP[+TO, SEM=?np] -> P[+TO] NP[SEM=?np]
 
 ############################# added
 
-VP[NUM=?n,SEM=<?v(?obj,?pp)>] -> V[NUM=?n] VP[SEM=<?v(?obj,?pp)>]
-VP[NUM=?n,SEM=<?v(?obj,?pp)>] -> V[NUM=?n] VP[SEM=<?v(?obj)>]
-N -> AP N
-VP -> V PP
-PP -> P NP
-NP -> N
-N -> N PP
+#VP[NUM=?n,SEM=<?v(?t)>] -> V[NUM=?n,SEM=<?t>] VP[SEM=<?v>]
+VP[NUM=?n,SEM=<?t(?v)>] -> V[NUM=?n,SEM=?t] VP[SEM=?v]
+
+#VP[NUM=?n,SEM=<?v(?obj,?pp)>] -> V[NUM=?n] VP[SEM=<?v(?obj,?pp)>]
+#VP[NUM=?n,SEM=<?v(?obj,?pp)>] -> V[NUM=?n] VP[SEM=<?v(?obj)>]
+#N -> AP N
+#VP -> V PP
+#PP -> P NP
+NP[SEM=?n] -> N[SEM=?n]
+#N -> N PP
 
 
 #############################
@@ -76,9 +79,15 @@ P[+to] -> 'to'
 
 ################################## added
 
-AP[SEM=<\x.big(x)>] -> 'big'
-V[NUM=?n] -> 'are'
-V[NUM=sg] -> 'is'
-V[SEM=<\X x.X(\y.image(x,y))>] -> 'imagining'
-V[] -> 'flying'
+#AP[SEM=<\x.big(x)>] -> 'big'
+NP[SEM=<\P.P(you)>] -> 'you' | 'You'
+
+V[NUM=sg,SEM=<\P.exists e.(tense(e, PresCont) & P(e))>] -> 'are'
+
+#V[NUM=sg] -> 'is'
+#V[SEM=<\X x.X(\y.image(x,y))>] -> 'imagining'
+V[SEM=<\Y X x.X(\z.Y(\y.image(x,z,y)))>] -> 'imagining'
+#NP[NUM=pl,SEM=<\x.things(x)>] -> 'things'
+N[NUM=pl,SEM=<\P.P(things)>] -> 'things'
+#V[] -> 'flying'
 
