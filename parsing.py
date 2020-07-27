@@ -10,3 +10,10 @@ entities = nltk.chunk.ne_chunk(tagged)
 print(tagged)
 entities.draw()
 
+#modo alternativo
+
+sents = ['You are imagining things']
+grammar_file = 'cfgrammar2.fcfg'
+for results in nltk.interpret_sents(sents, grammar_file):
+    for (synrep, semrep) in results:
+        print(synrep)

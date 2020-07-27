@@ -21,23 +21,36 @@ NP[LOC=?l,NUM=?n,SEM=?np] -> PropN[LOC=?l,NUM=?n,SEM=?np]
 # Nom[NUM=?n,SEM=?nom] -> N[NUM=?n,SEM=?nom]
 
 VP[NUM=?n,SEM=?v] -> V[NUM=?n,SEM=?v]
-VP[NUM=?n,SEM=<?v(?obj)>] -> V[NUM=?n,SEM=?v] NP[SEM=?obj]
+VP[TNS=?t,NUM=?n,SEM=<?v(?obj)>] -> V[AUX=0,TNS=?t,NUM=?n,SEM=?v] NP[SEM=?obj]
 VP[NUM=?n,SEM=<?v(?obj,?pp)>] -> DTV[NUM=?n,SEM=?v] NP[SEM=?obj] PP[+TO,SEM=?pp]
 
 PP[+TO, SEM=?np] -> P[+TO] NP[SEM=?np]
 
-############################# added
+############################### added
+
+####### 1° Sentence
+VP[NUM=?n,SEM=<?v(?t)>] -> V[AUX=1,NUM=?n,SEM=?t] VP[TNS=ing,SEM=?v]
+NP[SEM=?n] -> N[SEM=?n]
+
+
+####### 2° Sentence
+PP[SEM=<?v(?t)>] -> P[SEM=?t] NP[SEM=?v]
+N[SEM=<?v(?t)>] -> N[SEM=?t] PP[SEM=?v]
+V[NUM=?x,SEM=?n] -> V[AUX=2,NUM=?x] NP[SEM=?n]
+#VP[SEM=?n] -> V[SEM=?n]
+VP[SEM=<?t(?v)>] -> VP[SEM=?t] PP[SEM=?v]
+S[SEM=?n] -> NPX VP[SEM=?n]
+
+
 
 #VP[NUM=?n,SEM=<?v(?t)>] -> V[NUM=?n,SEM=<?t>] VP[SEM=<?v>]
-VP[NUM=?n,SEM=<?t(?v)>] -> V[NUM=?n,SEM=?t] VP[SEM=?v]
 
 #VP[NUM=?n,SEM=<?v(?obj,?pp)>] -> V[NUM=?n] VP[SEM=<?v(?obj,?pp)>]
 #VP[NUM=?n,SEM=<?v(?obj,?pp)>] -> V[NUM=?n] VP[SEM=<?v(?obj)>]
 #N -> AP N
 #VP -> V PP
-#PP -> P NP
-NP[SEM=?n] -> N[SEM=?n]
-#N -> N PP
+
+
 
 
 #############################
@@ -79,15 +92,30 @@ P[+to] -> 'to'
 
 ################################## added
 
-#AP[SEM=<\x.big(x)>] -> 'big'
+####### 1° Sentence --- exists e.(tense(e,PresCont) & image(e,you,things))
 NP[SEM=<\P.P(you)>] -> 'you' | 'You'
-
-V[NUM=sg,SEM=<\P.exists e.(tense(e, PresCont) & P(e))>] -> 'are'
-
-#V[NUM=sg] -> 'is'
-#V[SEM=<\X x.X(\y.image(x,y))>] -> 'imagining'
-V[SEM=<\Y X x.X(\z.Y(\y.image(x,z,y)))>] -> 'imagining'
-#NP[NUM=pl,SEM=<\x.things(x)>] -> 'things'
+V[AUX=1, NUM=sg,SEM=<\P.exists e.(tense(e, PresCont) & P(e))>] -> 'are'
+V[AUX=0, TNS=ing, SEM=<\Y X x.X(\z.Y(\y.image(z,x,y)))>] -> 'imagining'
 N[NUM=pl,SEM=<\P.P(things)>] -> 'things'
+
+### 1° extra
+V[SEM=<\X x.X(\y.image(x,y))>] -> 'image' | 'images'
+
+####### 2° Sentence --- exists x.(price(x) & exists e.(head(e) & pronPoss(my,e) & over(x,e)))
+NPX[NUM=sg] -> 'There' | 'there'
+V[AUX=2,NUM=sg] -> 'is'
+DET[SEM=<\P Q.exists e.(P(e) & Q(e))>] -> 'a'
+N[SEM=<\x.price(x)>] -> 'price'
+#P[SEM=<\y z.over(z,y)>] -> 'on'
+P[SEM=<\y z.over(z,y)>] -> 'on'
+#Det[SEM=<\P Q.exists e.(adjPoss(my, e) & P(e) & Q(e))>] -> 'my'
+Det[SEM=<\P Q z.exists e.(adjPoss(my, e) & P(e) & Q(e,z))>] -> 'my'
+N[SEM=<\x.head(x)>] -> 'head'
+
+
+
+
+#AP[SEM=<\x.big(x)>] -> 'big'
+#NP[NUM=pl,SEM=<\x.things(x)>] -> 'things'
 #V[] -> 'flying'
 
