@@ -20,9 +20,9 @@ NP[LOC=?l,NUM=?n,SEM=?np] -> PropN[LOC=?l,NUM=?n,SEM=?np]
 
 # Nom[NUM=?n,SEM=?nom] -> N[NUM=?n,SEM=?nom]
 
-VP[NUM=?n,SEM=?v] -> V[AUX=2,NUM=?n,SEM=?v]
+# VP[NUM=?n,SEM=?v] -> V[AUX=2,NUM=?n,SEM=?v]
 VP[TNS=?t,NUM=?n,SEM=<?v(?obj)>] -> V[AUX=0,TNS=?t,NUM=?n,SEM=?v] NP[SEM=?obj]
-VP[NUM=?n,SEM=<?v(?obj,?pp)>] -> DTV[NUM=?n,SEM=?v] NP[SEM=?obj] PP[+TO,SEM=?pp]
+# VP[NUM=?n,SEM=<?v(?obj,?pp)>] -> DTV[NUM=?n,SEM=?v] NP[SEM=?obj] PP[+TO,SEM=?pp]
 
 #PP[+TO, SEM=?np] -> P[+TO] NP[SEM=?np]
 
@@ -35,7 +35,7 @@ NP[SEM=?n] -> N[SEM=?n]
 
 ####### 2° Sentence
 PP[SEM=<?v(?t)>] -> P[SEM=?t] NP[SEM=?v]
-N[SEM=<?v(?t)>] -> N[SEM=?t] PP[SEM=?v]
+# N[SEM=<?v(?t)>] -> N[SEM=?t] PP[SEM=?v]
 V[AUX=2,NUM=?x,SEM=?n] -> V[AUX=2,NUM=?x] NP[SEM=?n]
 VP[SEM=<?t(?v)>] -> VP[SEM=?t] PP[SEM=?v]
 S[SEM=?n] -> NPX VP[SEM=?n]
@@ -43,10 +43,10 @@ S[SEM=?n] -> NPX VP[SEM=?n]
 
 ####### 3° Sentence
 
-N[SEM=<?t(?v)>] -> AP[SEM=?t] N[SEM=?v]
+# N[SEM=<?t(?v)>] -> AP[SEM=?t] N[SEM=?v]
 VP[SEM=<?t(?v)>] -> V[SEM=?t] PP[SEM=?v]
 VP[SEM=<?v(?t)>] -> V[SEM=?t] V[SEM=?v]
-PP[SEM=<?t(?v)>] -> P[SEM=?t] NP[SEM=?v]
+# PP[SEM=<?t(?v)>] -> P[SEM=?t] NP[SEM=?v]
 PP[SEM=<?v(?t(?x))>] -> PX[SEM=?x] PX[SEM=?t] N[SEM=?v]
 Det[SEM=<?t(?v)>] -> Det[SEM=?t] AP[SEM=?v]
 
