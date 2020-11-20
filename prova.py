@@ -7,7 +7,7 @@ from nltk import load_parser
 #sentence = 'There is a price on my head'.split()
 sentence = 'your big opportunity is flying out of here'.split()
 
-cp = load_parser('cfgrammar2.fcfg', trace=0)
+cp = load_parser('cfgrammar.fcfg', trace=0)
 
 
 for tree in cp.parse(sentence):
