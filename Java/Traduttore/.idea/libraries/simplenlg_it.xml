@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="simplenlg-it">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/simplenlg-it.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/simplenlg-it.jar!/doc" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

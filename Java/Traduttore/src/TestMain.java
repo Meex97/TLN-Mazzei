@@ -52,22 +52,24 @@ public class TestMain {
     //System.out.println(realiser.realiseSentence(f2));
 	
 	//3° frase - C'è una taglia sulla mia testa
-	
-	SPhraseSpec f3 = nlgFactory.createClause();
-		
-	NPPhraseSpec taglia = nlgFactory.createNounPhrase("una", "taglia");
-	f3.setSubject(taglia);
-	
-	
-	VPPhraseSpec ce = nlgFactory.createVerbPhrase("c'è");
-	PPPhraseSpec testa = nlgFactory.createPrepositionPhrase("mio", "testa");
-	testa.addModifier("sulla");
-	ce.setFeature(LexicalFeature.GENDER, Gender.FEMININE);
-	ce.addComplement(testa);
-	
-	f3.setVerbPhrase(ce);
-	
-	System.out.println(realiser.realiseSentence(f3));
+
+		SPhraseSpec f3 = nlgFactory.createClause();
+
+		NPPhraseSpec taglia = nlgFactory.createNounPhrase("un", "taglia");
+
+		VPPhraseSpec ce = nlgFactory.createVerbPhrase("c'è");
+
+		NPPhraseSpec testa = nlgFactory.createNounPhrase("testa");
+		AdjPhraseSpec mia = nlgFactory.createAdjectivePhrase("mio");
+		mia.setFeature(LexicalFeature.GENDER, Gender.FEMININE);
+		testa.addModifier(mia);
+		testa.setSpecifier("sulla");
+
+		f3.setSubject(taglia);
+		f3.setVerbPhrase(ce);
+		f3.setObject(testa);
+
+		System.out.println(realiser.realiseSentence(f3));
 	
     }
 

@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8783810b-b14a-424f-8270-c45ffd4a60ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Esame-TLN-INFO-1920.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TLN-Mazzei.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TestMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cfgrammar.fcfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prova.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../venv/bin/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../venv/bin/activate.csh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../venv/bin/activate.fish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../venv/bin/python" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../venv/bin/python3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../venv/bin/python3.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../venv/lib64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/TestMain.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +34,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java/Traduttore" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -174,7 +157,7 @@
       <workItem from="1601394646703" duration="642000" />
       <workItem from="1602083115427" duration="625000" />
       <workItem from="1602238910162" duration="1000" />
-      <workItem from="1605893584129" duration="42000" />
+      <workItem from="1605893584129" duration="832000" />
     </task>
     <servers />
   </component>
@@ -182,76 +165,30 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="476" y="130" width="1024" height="845" key="#Project_Structure" timestamp="1595006878199">
+    <state x="780" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1605894031239">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="476" y="130" width="1024" height="845" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1595006878199" />
-    <state x="460" y="181" width="1084" height="743" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594825286117">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state x="460" y="181" width="1084" height="743" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1594825286117" />
-    <state x="660" y="415" width="646" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595176266565">
-      <screen x="67" y="27" width="1853" height="1173" />
-    </state>
-    <state x="660" y="415" width="646" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1173@67.27.1853.1173" timestamp="1595176266565" />
-    <state x="780" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1602083145378">
+    <state x="780" y="311" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1605894031239" />
+    <state width="1807" height="549" key="GridCell.Tab.0.bottom" timestamp="1605893627300">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="739" y="312" width="737" height="483" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1594921127223" />
-    <state x="780" y="311" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1602083145378" />
-    <state width="1807" height="727" key="GridCell.Tab.0.bottom" timestamp="1595996266283">
+    <state width="1807" height="549" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1605893627300" />
+    <state width="1807" height="549" key="GridCell.Tab.0.center" timestamp="1605893627297">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1874" height="542" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1594925779058" />
-    <state width="1601" height="618" key="GridCell.Tab.0.bottom/67.27.1647.897@67.27.1647.897" timestamp="1595784838641" />
-    <state width="1807" height="727" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1595996266283" />
-    <state width="1807" height="421" key="GridCell.Tab.0.bottom/67.27.1853.1173@67.27.1853.1173" timestamp="1595176325384" />
-    <state width="1807" height="727" key="GridCell.Tab.0.center" timestamp="1595996266281">
+    <state width="1807" height="549" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1605893627297" />
+    <state width="1807" height="549" key="GridCell.Tab.0.left" timestamp="1605893627296">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1874" height="542" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1594925779057" />
-    <state width="1601" height="618" key="GridCell.Tab.0.center/67.27.1647.897@67.27.1647.897" timestamp="1595784838639" />
-    <state width="1807" height="727" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1595996266281" />
-    <state width="1807" height="421" key="GridCell.Tab.0.center/67.27.1853.1173@67.27.1853.1173" timestamp="1595176325382" />
-    <state width="1807" height="727" key="GridCell.Tab.0.left" timestamp="1595996266280">
+    <state width="1807" height="549" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1605893627296" />
+    <state width="1807" height="549" key="GridCell.Tab.0.right" timestamp="1605893627299">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1874" height="542" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1594925779056" />
-    <state width="1601" height="618" key="GridCell.Tab.0.left/67.27.1647.897@67.27.1647.897" timestamp="1595784838638" />
-    <state width="1807" height="727" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1595996266280" />
-    <state width="1807" height="421" key="GridCell.Tab.0.left/67.27.1853.1173@67.27.1853.1173" timestamp="1595176325380" />
-    <state width="1807" height="727" key="GridCell.Tab.0.right" timestamp="1595996266282">
+    <state width="1807" height="549" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1605893627299" />
+    <state x="302" y="154" width="1372" height="796" key="new project wizard" timestamp="1605893836549">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1874" height="542" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1594925779057" />
-    <state width="1601" height="618" key="GridCell.Tab.0.right/67.27.1647.897@67.27.1647.897" timestamp="1595784838640" />
-    <state width="1807" height="727" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1595996266282" />
-    <state width="1807" height="421" key="GridCell.Tab.0.right/67.27.1853.1173@67.27.1853.1173" timestamp="1595176325383" />
-    <state width="1874" height="343" key="GridCell.Tab.1.bottom" timestamp="1594831583725">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state width="1874" height="343" key="GridCell.Tab.1.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1594831583725" />
-    <state width="1874" height="343" key="GridCell.Tab.1.center" timestamp="1594831583725">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state width="1874" height="343" key="GridCell.Tab.1.center/0.28.1920.1052@0.28.1920.1052" timestamp="1594831583725" />
-    <state width="1874" height="343" key="GridCell.Tab.1.left" timestamp="1594831583725">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state width="1874" height="343" key="GridCell.Tab.1.left/0.28.1920.1052@0.28.1920.1052" timestamp="1594831583725" />
-    <state width="1874" height="343" key="GridCell.Tab.1.right" timestamp="1594831583725">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state width="1874" height="343" key="GridCell.Tab.1.right/0.28.1920.1052@0.28.1920.1052" timestamp="1594831583725" />
-    <state x="495" y="131" width="1024" height="845" key="SettingsEditor" timestamp="1595007599877">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="443" y="132" width="1026" height="844" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1594921204733" />
-    <state x="495" y="131" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1595007599877" />
-    <state x="616" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1595005452007">
-      <screen x="0" y="28" width="1920" height="1052" />
-    </state>
-    <state x="616" y="382" key="com.intellij.ide.util.TipDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1595005452007" />
+    <state x="302" y="154" width="1372" height="796" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1605893836549" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/progetto$prova.coverage" NAME="prova Coverage Results" MODIFIED="1605893617870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
