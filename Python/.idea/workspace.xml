@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6df3a91-647c-43da-b77c-0e35e831b101" name="Default Changelist" comment="" />
+    <list default="true" id="b6df3a91-647c-43da-b77c-0e35e831b101" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/Esame-TLN-INFO-1920.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/TLN-Mazzei.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/cfgrammar.fcfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/prova.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/bin/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/bin/activate.csh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/bin/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/bin/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/bin/python3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/bin/python3.6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/lib64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/pyvenv.cfg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +144,7 @@
       <updated>1595927112532</updated>
       <workItem from="1595927122255" duration="588000" />
       <workItem from="1605888669610" duration="489000" />
-      <workItem from="1605889488916" duration="3588000" />
+      <workItem from="1605889488916" duration="3296000" />
     </task>
     <servers />
   </component>
@@ -145,22 +164,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1605889766262" />
-    <state width="1807" height="355" key="GridCell.Tab.0.bottom" timestamp="1605893535505">
+    <state width="1807" height="355" key="GridCell.Tab.0.bottom" timestamp="1605893115389">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="355" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1605893535505" />
-    <state width="1807" height="355" key="GridCell.Tab.0.center" timestamp="1605893535503">
+    <state width="1807" height="355" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1605893115389" />
+    <state width="1807" height="355" key="GridCell.Tab.0.center" timestamp="1605893115387">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="355" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1605893535503" />
-    <state width="1807" height="355" key="GridCell.Tab.0.left" timestamp="1605893535502">
+    <state width="1807" height="355" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1605893115387" />
+    <state width="1807" height="355" key="GridCell.Tab.0.left" timestamp="1605893115386">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="355" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1605893535502" />
-    <state width="1807" height="355" key="GridCell.Tab.0.right" timestamp="1605893535504">
+    <state width="1807" height="355" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1605893115386" />
+    <state width="1807" height="355" key="GridCell.Tab.0.right" timestamp="1605893115388">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="355" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1605893535504" />
+    <state width="1807" height="355" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1605893115388" />
     <state x="476" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1605889692225">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -171,7 +190,6 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TLN$prova__1_.coverage" NAME="prova (1) Coverage Results" MODIFIED="1605893322569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TLN-Mazzei" />
-    <SUITE FILE_PATH="coverage/TLN$prova.coverage" NAME="prova Coverage Results" MODIFIED="1605893392154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TLN-Mazzei" />
+    <SUITE FILE_PATH="coverage/TLN$prova.coverage" NAME="prova Coverage Results" MODIFIED="1605890439578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TLN-Mazzei" />
   </component>
 </project>
