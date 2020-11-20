@@ -1,19 +1,16 @@
 import nltk
 from nltk import load_parser
 
-
 #sentence = 'Angus gives a bone to every dog'.split()
+
 #sentence = 'You are imagining things'.split()
 #sentence = 'There is a price on my head'.split()
 sentence = 'your big opportunity is flying out of here'.split()
-print(sentence)
 
-#tagged = nltk.pos_tag(tokens)
-cp = load_parser('cfgrammar2.fcfg', trace=1)
+cp = load_parser('cfgrammar2.fcfg', trace=0)
 
-#nltk.data.load('cfgrammar.fcfg')
 
 for tree in cp.parse(sentence):
-    print(tree)
+    print(tree.label()['SEM'])
 
 
