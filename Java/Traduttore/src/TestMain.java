@@ -15,7 +15,7 @@ public class TestMain {
 	Realiser realiser = new Realiser();
 
 
-	//1° frase - Tu stai immaginando cose
+	//1° frase - Tu stai immaginando cose - exists e.(tense(e,PresCont) & image(e,you,things))
 	
 	SPhraseSpec f1 = nlgFactory.createClause();
 	
@@ -24,13 +24,14 @@ public class TestMain {
 	f1.setVerb("immaginare");
 	f1.setFeature(Feature.PROGRESSIVE, true);	
 		
-	NPPhraseSpec cose = nlgFactory.createNounPhrase("la", "cosa");
+	NPPhraseSpec cose = nlgFactory.createNounPhrase("il", "cosa");
 	cose.setPlural(true);
 	f1.setObject(cose);
 	
-	//System.out.println(realiser.realiseSentence(f1));
+	System.out.println(realiser.realiseSentence(f1));
 	
-	//2° frase - La tua grande opportunità sta volanda via di qui
+	//2° frase - La tua grande opportunità sta volanda via di qui -
+		// exists e.(adjPoss(your,e) & adj(big,e) & opportunity(e) & exists c.(tense(c,PresCont) & fly(c,e) & compl(c,out,of,here)))
 	
 	SPhraseSpec f2 = nlgFactory.createClause();
 
@@ -51,7 +52,7 @@ public class TestMain {
     
     //System.out.println(realiser.realiseSentence(f2));
 	
-	//3° frase - C'è una taglia sulla mia testa
+	//3° frase - C'è una taglia sulla mia testa - exists x.(price(x) & exists e.(adjPoss(my,e) & head(e) & over(x,e)))
 
 		SPhraseSpec f3 = nlgFactory.createClause();
 
@@ -69,7 +70,7 @@ public class TestMain {
 		f3.setVerbPhrase(ce);
 		f3.setObject(testa);
 
-		System.out.println(realiser.realiseSentence(f3));
+		//System.out.println(realiser.realiseSentence(f3));
 	
     }
 

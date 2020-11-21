@@ -1,1 +1,1 @@
-exists e.(adjPoss(your,e) & adj(big,e) & opportunity(e) & exists c.(tense(c,PresCont) & fly(c,e) & compl(c,out,of,here)))
+exists e.(tense(e,PresCont) & image(e,you,things))

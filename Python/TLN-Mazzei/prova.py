@@ -8,16 +8,17 @@ from nltk import load_parser
 #sentence = 'There is a price on my head'.split()
 sentence = 'your big opportunity is flying out of here'.split()
 
+sentence2 = str(sys.argv[1]).split()
+
 cp = load_parser('cfgrammar.fcfg', trace=0)
 
 
-for tree in cp.parse(sentence):
+for tree in cp.parse(sentence2):
     print(tree.label()['SEM'])
-    file = open("fol.txt", "w")
+    file = open("../../Java/Traduttore/src/fol.txt", "w")
     file.write(str(tree.label()['SEM']))
     file.close()
     break
 
-print(str(sys.argv))
 
 
