@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b6df3a91-647c-43da-b77c-0e35e831b101" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/Esame-TLN-INFO-1920.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/TLN-Mazzei.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/TestMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/cfgrammar.fcfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/prova.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/bin/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/bin/activate.csh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/bin/activate.fish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/bin/python" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/bin/python3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/bin/python3.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/lib64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Traduttore/.idea/libraries/simplenlg_it.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Traduttore/.idea/libraries/simplenlg_it.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Traduttore/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Traduttore/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/prova.py" beforeDir="false" afterPath="$PROJECT_DIR$/TLN-Mazzei/prova.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +33,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TLN-Mazzei" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JupyterTrust" id="472483e9-5e37-42a1-acb8-bd3ac88c265c" />
+  <component name="JupyterTrust" id="3da6970a-57b5-4772-a73b-205a3daa7ef3" />
   <component name="ProjectId" id="1fJD4l5J9xWUdRM0NpJoNEFHQyQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,10 +47,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TLN-Mazzei/prova.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Python.prova">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -145,11 +152,29 @@
       <workItem from="1595927122255" duration="588000" />
       <workItem from="1605888669610" duration="489000" />
       <workItem from="1605889488916" duration="3296000" />
+      <workItem from="1605895131950" duration="183000" />
+      <workItem from="1605976143923" duration="1081000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/TLN-Mazzei" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
     <state x="476" y="130" width="1024" height="845" key="#Project_Structure" timestamp="1605889091614">
@@ -164,25 +189,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1605889766262" />
-    <state width="1807" height="355" key="GridCell.Tab.0.bottom" timestamp="1605893115389">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1605976980900">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1605976980900" />
     <state width="1807" height="355" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1605893115389" />
-    <state width="1807" height="355" key="GridCell.Tab.0.center" timestamp="1605893115387">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1605976980896">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
+    <state width="1874" height="278" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1605976980896" />
     <state width="1807" height="355" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1605893115387" />
-    <state width="1807" height="355" key="GridCell.Tab.0.left" timestamp="1605893115386">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1605976980884">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
+    <state width="1874" height="278" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1605976980884" />
     <state width="1807" height="355" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1605893115386" />
-    <state width="1807" height="355" key="GridCell.Tab.0.right" timestamp="1605893115388">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1605976980897">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
+    <state width="1874" height="278" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1605976980897" />
     <state width="1807" height="355" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1605893115388" />
-    <state x="476" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1605889692225">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="424" y="131" width="1024" height="845" key="SettingsEditor" timestamp="1605976201829">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
+    <state x="424" y="131" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1605976201829" />
     <state x="476" y="130" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1605889692225" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -191,5 +221,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TLN$prova.coverage" NAME="prova Coverage Results" MODIFIED="1605890439578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TLN-Mazzei" />
+    <SUITE FILE_PATH="coverage/Python$prova.coverage" NAME="prova Coverage Results" MODIFIED="1605976980854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TLN-Mazzei" />
   </component>
 </project>

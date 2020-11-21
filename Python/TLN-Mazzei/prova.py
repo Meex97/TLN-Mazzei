@@ -1,4 +1,5 @@
 import nltk
+import sys
 from nltk import load_parser
 
 #sentence = 'Angus gives a bone to every dog'.split()
@@ -12,5 +13,11 @@ cp = load_parser('cfgrammar.fcfg', trace=0)
 
 for tree in cp.parse(sentence):
     print(tree.label()['SEM'])
+    file = open("fol.txt", "w")
+    file.write(str(tree.label()['SEM']))
+    file.close()
+    break
+
+print(str(sys.argv))
 
 
