@@ -1,6 +1,7 @@
 import nltk
 import sys
 from nltk import load_parser
+import subprocess
 
 #sentence = 'Angus gives a bone to every dog'.split()
 
@@ -15,10 +16,19 @@ cp = load_parser('cfgrammar.fcfg', trace=0)
 
 for tree in cp.parse(sentence2):
     print(tree.label()['SEM'])
+    #for Java
     file = open("../../Java/Traduttore/src/fol.txt", "w")
     file.write(str(tree.label()['SEM']))
     file.close()
+
+    #for Python
+    file = open("./src/fol.txt", "w")
+    file.write(str(tree.label()['SEM']))
+    file.close()
     break
+
+
+subprocess.call(['java', '-jar', '../../Java/Traduttore/Traduttore.jar'])
 
 
 

@@ -1,0 +1,1 @@
+exists e.(tense(e,PresCont) & image(e,you,things))

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="traduttore">
+    <output-path>$PROJECT_DIR$/out/artifacts/traduttore</output-path>
+    <root id="archive" name="Traduttore.jar">
+      <element id="module-output" name="Traduttore" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/simplenlg-it.jar" path-in-jar="/" />
+      <element id="library" level="application" name="Python 3.6 interpreter library" />
+      <element id="library" level="project" name="simplenlg-it" />
+    </root>
+  </artifact>
+</component>
