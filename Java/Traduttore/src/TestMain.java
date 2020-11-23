@@ -15,13 +15,15 @@ public class TestMain {
 	Realiser realiser = new Realiser();
 
 
-	//1° frase - Tu stai immaginando cose - exists e.(tense(e,PresCont) & image(e,you,things))
+	//1° frase - Tu stai immaginando cose - exists e.(image(e,you,things) & tense(e,PresCont))
 	
 	SPhraseSpec f1 = nlgFactory.createClause();
-	
-	f1.setSubject("tu");
-		
-	f1.setVerb("immaginare");
+
+	NPPhraseSpec tu = nlgFactory.createNounPhrase("tu");
+	f1.setSubject(tu);
+
+	VPPhraseSpec imm = nlgFactory.createVerbPhrase("immaginare");
+	f1.setVerb(imm);
 	f1.setFeature(Feature.PROGRESSIVE, true);	
 		
 	NPPhraseSpec cose = nlgFactory.createNounPhrase("il", "cosa");
@@ -29,15 +31,19 @@ public class TestMain {
 	f1.setObject(cose);
 	
 	System.out.println(realiser.realiseSentence(f1));
-	
+
+
+
 	//2° frase - La tua grande opportunità sta volanda via di qui -
-		// exists e.(adjPoss(your,e) & adj(big,e) & opportunity(e) & exists c.(tense(c,PresCont) & fly(c,e) & compl(c,out,of,here)))
+		// exists e.(opportunity(e) & adjPoss(your,e) & adj(big,e) & exists c.(fly(c,e) & compl(c,out,of,here) & tense(c,PresCont)))
 	
 	SPhraseSpec f2 = nlgFactory.createClause();
 
-    NPPhraseSpec np = nlgFactory.createNounPhrase("la","opportunità");
-    np.setFeature(LexicalFeature.GENDER, Gender.FEMININE);
-    np.addPreModifier("tua");
+    NPPhraseSpec np = nlgFactory.createNounPhrase("opportunità");
+    AdjPhraseSpec tua = nlgFactory.createAdjectivePhrase("tuo");
+    tua.setFeature(LexicalFeature.GENDER, Gender.FEMININE);
+    tua.addPreModifier("il");
+    np.addModifier(tua);
     WordElement grande_w = lexIta.getWord("grande", LexicalCategory.ADJECTIVE);
     grande_w.setFeature(ItalianLexicalFeature.QUALITATIVE, true);
     np.addModifier(grande_w);
@@ -50,27 +56,30 @@ public class TestMain {
     PPPhraseSpec pp = nlgFactory.createPrepositionPhrase("via di", "qui");
     f2.addPostModifier(pp); //unibile
     
-    //System.out.println(realiser.realiseSentence(f2));
-	
-	//3° frase - C'è una taglia sulla mia testa - exists x.(price(x) & exists e.(adjPoss(my,e) & head(e) & over(x,e)))
+    System.out.println(realiser.realiseSentence(f2));
 
-		SPhraseSpec f3 = nlgFactory.createClause();
 
-		NPPhraseSpec taglia = nlgFactory.createNounPhrase("un", "taglia");
 
-		VPPhraseSpec ce = nlgFactory.createVerbPhrase("c'è");
+	//3° frase - C'è una taglia sulla mia testa - exists x.(price(x) & exists e.(head(e) & adjPoss(my,e) & over(x,e)))
 
-		NPPhraseSpec testa = nlgFactory.createNounPhrase("testa");
-		AdjPhraseSpec mia = nlgFactory.createAdjectivePhrase("mio");
-		mia.setFeature(LexicalFeature.GENDER, Gender.FEMININE);
-		testa.addModifier(mia);
-		testa.setSpecifier("sulla");
+	SPhraseSpec f3 = nlgFactory.createClause();
 
-		f3.setSubject(taglia);
-		f3.setVerbPhrase(ce);
-		f3.setObject(testa);
+	NPPhraseSpec taglia = nlgFactory.createNounPhrase("un", "taglia");
 
-		//System.out.println(realiser.realiseSentence(f3));
+	VPPhraseSpec ce = nlgFactory.createVerbPhrase("c'è");
+
+	NPPhraseSpec testa = nlgFactory.createNounPhrase("testa");
+	AdjPhraseSpec mia = nlgFactory.createAdjectivePhrase("mio");
+	mia.setFeature(LexicalFeature.GENDER, Gender.FEMININE);
+	mia.addPreModifier("il");
+	testa.addModifier(mia);
+	testa.setSpecifier("sopra");
+
+	f3.setSubject(taglia);
+	f3.setVerbPhrase(ce);
+	f3.setObject(testa);
+
+	System.out.println(realiser.realiseSentence(f3));
 	
     }
 

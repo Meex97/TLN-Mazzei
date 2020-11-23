@@ -1,13 +1,3 @@
-## Natural Language Toolkit: sem3.fcfg
-##
-## Alternative simple grammar with transitive verbs and
-## quantifiers for the book.
-##
-## Author: Ewan Klein <ewan@inf.ed.ac.uk>
-## URL: <http://nltk.sourceforge.net>
-## For license information, see LICENSE.TXT
-
-
 % start S
 ############################
 # Grammar Rules
@@ -94,7 +84,7 @@ P[+to] -> 'to'
 
 ####### 1° Sentence --- exists e.(tense(e,PresCont) & image(e,you,things))
 NP[SEM=<\P.P(you)>] -> 'you' | 'You'
-V[AUX=1, NUM=sg,SEM=<\P.exists e.(tense(e, PresCont) & P(e))>] -> 'are'
+V[AUX=1, NUM=sg,SEM=<\P.exists e.(P(e) & tense(e, PresCont))>] -> 'are'
 V[AUX=0, TNS=ing, SEM=<\Y X x.X(\z.Y(\y.image(z,x,y)))>] -> 'imagining'
 N[NUM=pl,SEM=<\P.P(things)>] -> 'things'
 
@@ -109,19 +99,19 @@ DET[SEM=<\P Q.exists e.(P(e) & Q(e))>] -> 'a'
 N[SEM=<\x.price(x)>] -> 'price'
 P[SEM=<\y z.over(z,y)>] -> 'on'
 #Det[SEM=<\P Q.exists e.(adjPoss(my, e) & P(e) & Q(e))>] -> 'my'
-Det[SEM=<\P Q z.exists e.(adjPoss(my, e) & P(e) & Q(e,z))>] -> 'my'
+Det[SEM=<\P Q z.exists e.(P(e) & adjPoss(my, e) & Q(e,z))>] -> 'my'
 N[SEM=<\x.head(x)>] -> 'head'
 
 
 ####### 3° Sentence --- exists x.(opportunity(x) & adj(big,x) & pronPoss(your,x) & exists e.(tense(e,PresCont) & fly(e,x) & compl(e,out,of,here)))
 
-Det[SEM=<\P Q X.exists e.(adjPoss(your, e) & P(e) & Q(e) & X(e))>] -> 'Your' | 'your'
+Det[SEM=<\P Q X.exists e.(Q(e) & adjPoss(your, e) & P(e) & X(e))>] -> 'Your' | 'your'
 AP[SEM=<\x.adj(big,x)>] -> 'big'
 N[SEM=<\x.opportunity(x)>] -> 'opportunity'
 
 
 #V[AUX=1, NUM=sg,SEM=<\P Q.exists e.(tense(e, PresCont) & P(e) & Q(e))>] -> 'is'
-V[AUX=1, NUM=sg,SEM=<\Q.exists c.(tense(c,PresCont) & Q(c))>] -> 'is'
+V[AUX=1, NUM=sg,SEM=<\Q.exists c.(Q(c) & tense(c,PresCont))>] -> 'is'
 V[AUX=0, TNS=ing, SEM=<\X Q x.X(\y.(fly(y,x) & Q(y)))>] -> 'flying'
 
 #V[AUX=0, TNS=ing, SEM=<\P y.exists c.(tense(c,PresCont) & fly(c,y) & P(c))>] -> 'flying'
