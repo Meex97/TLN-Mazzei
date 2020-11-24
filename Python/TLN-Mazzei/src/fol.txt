@@ -1,1 +1,1 @@
-exists e.(tense(e,PresCont) & image(e,you,things))
+exists x.(price(x) & exists e.(head(e) & adjPoss(my,e) & over(x,e)))
