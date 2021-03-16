@@ -80,7 +80,24 @@ public class Vocabulary {
                     ((NPPhraseSpec) tmp).setSpecifier("sopra");
                 }
                 break;
-
+            case "dog":
+                tmp = nlgFactory.createNounPhrase("un", "cane");
+                addName(phrase, tmp);
+                break;
+            case "are":
+                tmp = nlgFactory.createVerbPhrase("essere");
+                phrase.setVerb(tmp);
+                break;
+            case "sleep":
+                tmp = nlgFactory.createVerbPhrase("dormire");
+                phrase.setVerb(tmp);
+                hasVerb = true;
+                break;
+            case "walk":
+                tmp = nlgFactory.createVerbPhrase("camminare");
+                phrase.setVerb(tmp);
+                hasVerb = true;
+                break;
 
             default:
                 unknow = unknow + word;

@@ -1,1 +1,1 @@
-exists e.(opportunity(e) & adjPoss(your,e) & adj(big,e) & exists c.(fly(c,e) & compl(c,out,of,here) & tense(c,PresCont)))
+exists x.(price(x) & exists e.(head(e) & adjPoss(my,e) & over(x,e)))

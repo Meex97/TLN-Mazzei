@@ -89,7 +89,7 @@ V[AUX=0, TNS=ing, SEM=<\Y X x.X(\z.Y(\y.image(z,x,y)))>] -> 'imagining'
 N[NUM=pl,SEM=<\P.P(things)>] -> 'things'
 
 ### 1° extra
-V[SEM=<\X x.X(\y.image(x,y))>] -> 'image' | 'images'
+V[SEM=<\X x.X(\y.image(x,y))>] -> 'imagine' | 'images'
 
 
 ####### 2° Sentence --- exists x.(price(x) & exists e.(head(e) & pronPoss(my,e) & over(x,e)))
@@ -122,3 +122,10 @@ PX[SEM=<\p a c.(compl(c,out,p,a))>] -> 'out'
 PX[SEM=<\P.P(of)>] -> 'of'
 N[SEM=<\P.P(here)>] -> 'here'
 
+####### EXTRA
+# exists e.(tense(e,PresCont) & sleep(e,you))
+#NP[SEM=<\P.P(you)>] -> 'you' | 'You'
+V[AUX=1, NUM=sg,SEM=<\P.exists e.(P(e) & tense(e, PresCont))>] -> 'are'
+V[NUM=pl,TNS=ing, SEM=<\X x.X(\y.sleep(x,y))>] -> 'sleeping'
+V[NUM=pl,TNS=ing, SEM=<\X x.X(\y.walk(x,y))>] -> 'walking'
+Det[SEM=<\P Q z.exists e.(P(e) & adjPoss(your, e) & Q(e,z))>] -> 'Your' | 'your'
