@@ -104,8 +104,9 @@ N[SEM=<\x.head(x)>] -> 'head'
 
 
 ####### 3° Sentence --- exists x.(opportunity(x) & adj(big,x) & pronPoss(your,x) & exists e.(tense(e,PresCont) & fly(e,x) & compl(e,out,of,here)))
-
+Det[SEM=<\P Q z.exists e.(P(e) & adjPoss(your, e) & Q(e,z))>] -> 'Your' | 'your'
 Det[SEM=<\P Q X.exists e.(Q(e) & adjPoss(your, e) & P(e) & X(e))>] -> 'Your' | 'your'
+
 AP[SEM=<\x.adj(big,x)>] -> 'big'
 N[SEM=<\x.opportunity(x)>] -> 'opportunity'
 
