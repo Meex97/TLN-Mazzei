@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6df3a91-647c-43da-b77c-0e35e831b101" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java/Traduttore/src/fol.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Traduttore/src/fol.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/cfgrammar.fcfg" beforeDir="false" afterPath="$PROJECT_DIR$/TLN-Mazzei/cfgrammar.fcfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/prova.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TLN-Mazzei/src/fol.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TLN-Mazzei/src/fol.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../readMe.txt" afterDir="false" />
-    </list>
+    <list default="true" id="b6df3a91-647c-43da-b77c-0e35e831b101" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +136,7 @@
       <workItem from="1605889488916" duration="3296000" />
       <workItem from="1605895131950" duration="183000" />
       <workItem from="1605976143923" duration="1081000" />
-      <workItem from="1615916754312" duration="1379000" />
+      <workItem from="1615916754312" duration="1750000" />
     </task>
     <servers />
   </component>

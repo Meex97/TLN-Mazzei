@@ -10,8 +10,5 @@ Tested sentences:
 - you are flying out of here
 - there is a price on your head
 - a price is flying out of here
-
-- There is an opportunity out of here
 - You are sleeping
 - You are walking
-- There is a dog out of here
